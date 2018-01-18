@@ -1,0 +1,25 @@
+{
+	"name": "cloudstackHosts",
+	"version": "1.0.0",
+	"description": "https://github.com/pedrorobsonleao/cloudstackHosts",
+	"main": "run.js",
+	"scripts": {
+		"start": "node run.js"
+	},
+	"dependencies": {
+		"cloudstack": "^0.2.0"
+	},
+	"engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedrorobsonleao/cloudstackHosts"
+  },
+  "keywords": [
+    "apache-cloudstack",
+    "cloudstack"
+  ],
+  "author": "Pedro Robson leao <pedro.leao@gmail.com> (http://about.me/pedrorobsonleao)",
+  "license": "gpl 3.0"
+}
