@@ -36,7 +36,7 @@ function sync() {
             done
             [ ${USER} == 'root' ] && {
                 cp -v /tmp/${TARGET}.new /etc/${TARGET};
-                echo "backup file in ${home}/.${TARGET}.old";
+                echo "backup file in ${HOME}/.${TARGET}.old";
             } || {
                 cat /tmp/${TARGET}.new
             };
