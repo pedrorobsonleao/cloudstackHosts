@@ -15,7 +15,7 @@ function get() {
             mv ${SRC}.tmp ${SRC};
         }
         cd ${OLDPWD};
-    }
+    } || true;
     
 }
 
