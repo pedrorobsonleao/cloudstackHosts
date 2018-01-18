@@ -1,5 +1,5 @@
 # cloudstackHosts - Sync hosts Apache-CloudStack -> local hosts
-Provide a syncronization between Apache-CloudStack and file *hosts* in local machine.
+Provides syncronization between Apache-CloudStack and *hosts* file in local machine.
 
 # Instalation
 * Checkout repository.
@@ -35,7 +35,7 @@ Use: ./cloudstackHosts.sh [command ...]
 
 ```
 * *HELP* - show the help messages.
-* *GET*  - get a apache-cloudstack hosts list.
+* *GET*  - get the apache-cloudstack hosts list.
 >>the list is save in *~/.coudhosts* file
 * *SYNC* -merge apache-cloudstack hosts list with a local hosts file.
 >>if you execute this option with a *sudo* the original file iw changed and a backup file is save in *~/.hosts.old*
