@@ -5,7 +5,7 @@ Provides syncronization between Apache-CloudStack and *hosts* file in local mach
 * Checkout repository.
 * put in your hosts file.
 ```
-$ echo -e '#cloudhosts start\n#cloudhosts end' >>/etc/hosts
+$ sudo echo -e '#cloudhosts start\n#cloudhosts end' >>/etc/hosts
 ```
 * edit file *./lib/config.json* and update informations.
 
